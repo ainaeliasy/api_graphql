@@ -1,0 +1,16 @@
+Message:
+    type: object
+    config:
+        fields:
+            id:
+                type: 'Int!'
+            userFrom:
+                type: 'User!'
+            content:
+                type: 'Text!'
+            date:
+                type: 'Datetime!'
+            metadatas:
+                type: '[Metadata]!'
+            thread:
+                type: 'Tread!'

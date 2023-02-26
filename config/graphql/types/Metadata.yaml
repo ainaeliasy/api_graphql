@@ -1,0 +1,10 @@
+Metadata:
+    type: object
+    config:
+        fields:
+            id:
+                type: 'Int!'
+            user:
+                type: '[User]!'
+            message:
+                type: '[Message]'

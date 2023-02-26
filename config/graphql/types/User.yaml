@@ -1,0 +1,12 @@
+Metadata:
+    type: object
+    config:
+        fields:
+            id:
+                type: 'Int!'
+            firstname:
+                type: 'String!'
+            lastname:
+                type: 'String!'
+            email:
+                type: 'String!'

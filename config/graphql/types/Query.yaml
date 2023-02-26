@@ -12,10 +12,4 @@ Query:
             Users:
                 type: '[User]'
                 resolve: "@=resolver('Users')"
-            Message:
-                type: 'Message'
-                args:
-                    id:
-                        description: 'Resolves Message using its id.'
-                        type: 'Int!'
-                resolve: "@=resolver('Message', [args['id']])"
+            

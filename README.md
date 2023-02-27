@@ -13,6 +13,9 @@ Graphql Mutation implementation
 Fixtures
 Testing
 
+# Blocking area
+Almost library have requirement issue with symfony 6.
+The easyest way to use graphql with symfony is graphqlite library which have less boilerplate code.   
 
 # Requirement
 

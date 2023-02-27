@@ -1,0 +1,12 @@
+Metadata:
+    type: object
+    config:
+        fields:
+            id:
+                type: 'Int!'
+            subject:
+                type: 'String!'
+            participant:
+                type: '[User]'
+            messages:
+                type: '[message]'
